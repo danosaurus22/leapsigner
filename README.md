@@ -1,7 +1,7 @@
 # leapsigner
 American Sign Language to Speech Translator using LeapMotion Controller
 
-This was a graduate class project for the Embedded Systems course (EEC 284) taught by Dr. Soheil Ghiasi in the Fall 2014 quarter at the University of California, Davis. The goal was to develop an American Sign Language to speech (English) translator to help bridge the communication gap between people who are speech impaired and those who don't know ASL. 
+This was a graduate class project by Daniel Fong for the Embedded Systems course (EEC 284) taught by Dr. Soheil Ghiasi in the Fall 2014 quarter at the University of California, Davis. The goal was to develop an American Sign Language to speech (English) translator to help bridge the communication gap between people who are speech impaired and those who don't know ASL. 
 
 The technology behind this was done using the LeapMotion Controller to capture hand recognition information, which was fed into a computer via high-speed USB cable, and interpreted using a software program written in Java to perform the sign-language recognition by looking at the finger positions, angles, etc. (in a polling fashion) in reference to the LeapMotion Controller's coordinate system (cartesian). After a sign had been interpreted, a java-based text-to-speech engine was used to have the computer 'speak' the word.
 
